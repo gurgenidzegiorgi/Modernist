@@ -28,3 +28,133 @@ ul{
 .last li{
 	color: white;
 }
+.mtavari{
+	display: flex;
+	position: relative;
+	margin-top: 55px;
+	justify-content: space-around;
+    align-items: center;
+}
+.arrow1{
+	position: absolute;
+	width: 20px;
+	height: 30px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.arrow2{
+	position: absolute;
+	width: 20px;
+	height: 30px;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+.txt-div{
+	display: flex;
+	flex-direction: column;
+}
+h2{
+	font-size: 46px;
+	color: white;
+	margin-bottom: 30px;
+}
+.txt{
+	color: #979797;
+	width: 320px;
+	font-size: 12px;
+	margin-bottom: 65px;
+}
+.read-more p{
+	color: white;
+	font-size: 12px;
+	background-color: #76C38F;
+	width: 140px;
+	padding: 10px;
+    border-radius: 10px;
+}
+.sircl-img{
+	border-radius: 50%;
+    border: 20px solid grey;
+}
+.sec{
+	background-color: #660000;
+	padding: 60px 0;
+}
+.first-img-div{
+	display: flex;
+	justify-content: space-between;
+}
+.img-box{
+	padding: 20px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+}
+h4{
+	color: #333333;
+	font-size: 32px;
+	margin: 15px 0;
+}
+.cent-tit{
+	margin-left: 21px;
+}
+.img-txt{
+	width: 150px;
+	color: #979797;
+	font-size: 12px;
+}
+.latest{
+	position: relative;
+	margin: 40px auto;
+	height: 51px;
+}
+.stick{
+	width: 100%;
+	height: 2px;
+	background-color: #303030;
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+h5{
+	font-size: 32px;
+	background-color: #303030;
+	border-radius:10px;
+	display: inline-block;
+	padding: 10px;
+	color: white; 
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.sec-img-div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sec-img-box{
+	display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+}
+.sec-img-box:nth-child(1){
+	margin-bottom: 30px;
+}
+.sec-img-box:nth-child(2){
+	margin-bottom: 30px;
+}
+.sec-img-box:nth-child(3){
+	margin-bottom: 30px;
+}
+.lorem{
+	background-color: #000000;
+	text-align: center;
+	color: white;
+	padding: 5px 0;
+}
+
+
+
