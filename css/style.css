@@ -1,0 +1,30 @@
+
+
+.conteiner{
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+.first{
+	background-color: #330000;
+	padding: 50px 120px;
+}
+.hed{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{
+	font-size: 28px;
+	color: white;
+}
+ul{
+	display: flex;
+}
+.list li{
+	color: white;
+	margin-right: 40px;
+}
+.last li{
+	color: white;
+}
