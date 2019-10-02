@@ -229,3 +229,15 @@ button{
 	border-radius: 8px;
 	border: none;
 }
+.the-last{
+	background-color: #222222;
+	padding: 20px 0;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.copy{
+	color: #979797;
+	font-size: 13px;
+}
