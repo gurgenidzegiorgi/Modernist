@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .conteiner{
 	max-width: 960px;
@@ -17,6 +19,7 @@
 h1{
 	font-size: 28px;
 	color: white;
+	font-family: 'Hepta Slab', serif;
 }
 ul{
 	display: flex;
@@ -24,6 +27,14 @@ ul{
 .list li{
 	color: white;
 	margin-right: 40px;
+	font-family: 'Open Sans', sans-serif;
+	transition: all 0.3s ease-in-out 0.3s;
+}
+.list:hover li{
+	padding: 5px;
+    background-color: #76C38F;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out 0.3s;
 }
 .last li{
 	color: white;
@@ -59,12 +70,14 @@ h2{
 	font-size: 46px;
 	color: white;
 	margin-bottom: 30px;
+	font-family: 'Hepta Slab', serif;
 }
 .txt{
 	color: #979797;
 	width: 320px;
 	font-size: 12px;
 	margin-bottom: 65px;
+	font-family: 'Open Sans', sans-serif;
 }
 .read-more p{
 	color: white;
@@ -73,6 +86,7 @@ h2{
 	width: 140px;
 	padding: 10px;
     border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 .sircl-img{
 	border-radius: 50%;
@@ -92,11 +106,25 @@ h2{
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
+	transition: all 0.3s ease-in-out 0.3s;
+}
+.img-box:hover{
+	background-color: #76C38F;
+	transition: all 0.3s ease-in-out 0.3s;
+}
+.img-box:hover h4{
+	color: white;
+	transition: all 0.3s ease-in-out 0.3s;
+}
+.img-box:hover .img-txt{
+	color: white;
+	transition: all 0.3s ease-in-out 0.3s;
 }
 h4{
 	color: #333333;
 	font-size: 32px;
 	margin: 15px 0;
+	font-family: 'Hepta Slab', serif;
 }
 .cent-tit{
 	margin-left: 21px;
@@ -105,6 +133,7 @@ h4{
 	width: 150px;
 	color: #979797;
 	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
 }
 .latest{
 	position: relative;
@@ -136,9 +165,23 @@ h4{
 	justify-content: space-between;
 }
 .sec-img-box{
-	display: flex;
-    flex-direction: column;
+	background-image: url(../img/290x190.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
     border: 5px solid white;
+    transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+	transition-delay: 0.3s;
+	position: relative;
+	transition: all 0.3s ease-in-out 0.3s;
+}
+.sec-img-box:hover .lorem{
+	opacity: 0;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+	transition-delay: 0.3s;
 }
 .sec-img-box:nth-child(1){
 	margin-bottom: 30px;
@@ -154,6 +197,14 @@ h4{
 	text-align: center;
 	color: white;
 	padding: 5px 0;
+	font-family: 'Open Sans', sans-serif;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+	transition-delay: 0.3s;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
 }
 footer{
 	padding: 40px 0;
@@ -172,24 +223,30 @@ footer{
 	font-size: 16px;
 	color: white;
 	margin-bottom: 35px;
+	font-family: 'Hepta Slab', serif;
 }
 h6{
 	color: #76C38F;
+	font-family: 'Hepta Slab', serif;
 }
 .last-txt{
 	width: 230px;
 	margin-bottom: 15px;
 	color: #979797;
+	font-family: 'Open Sans', sans-serif;
 }
 .admin{
 	color: #76C38F;
+	font-family: 'Open Sans', sans-serif;
 }
 .red-more{
 	color: #76C38F;
+	font-family: 'Open Sans', sans-serif;
 }
 .ipsum{
 	color: #76C38F;
 	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
 }
 .ipsum:after{
 	content: "";
@@ -202,9 +259,11 @@ h6{
 .namehere{
 	width: 220px;
 	color: #979797;
+	font-family: 'Open Sans', sans-serif;
 }
 .contact{
 	    width: 169px;
+	    font-family: 'Open Sans', sans-serif;
 }
 input{
 	padding: 5px;
@@ -241,3 +300,4 @@ button{
 	color: #979797;
 	font-size: 13px;
 }
+@media screen and (max-width: 768px)
