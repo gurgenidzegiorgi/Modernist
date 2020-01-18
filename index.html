@@ -4,18 +4,21 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>The Modernist</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<section class="first">
 			<header>
-				<div class="conteiner hed">
+				<div class="container d-flex justify-content-between align-items-center">
 					<a class="title" href="#">
 						<h1>The Modernist</h1>
 					</a>
 					<nav>
-						<ul>
+						<ul class="d-flex">
 							<a class="list" href="#">
 								<li>HOME</li>
 							</a>
@@ -38,16 +41,13 @@
 					</nav>
 				</div>
 			</header>
-			<div class="conteiner mtavari">
+			<div class="container mtavari d-flex justify-content-between align-items-center">
 				<a class="arrow1" href="#">
 					<img src="img/arrow1.svg" alt="icon">
 				</a>
-				<a class="arrow2" href="#">
-					<img src="img/arrow2.svg" alt="icon">
-				</a>
-				<div class="txt-div">
-					<h2>Cursus penati 
-					<br>saccum nulla.</br></h2>
+		
+				<div class="d-flex flex-column">
+					<h2>Cursus penati<br>saccum nulla</br></h2>
 					<p class="txt">
 						Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.
 					</p>
@@ -56,11 +56,14 @@
 					</a>
 				</div>
 				<img class="sircl-img" src="img/380x380.jpg" alt="network">
+				<a class="arrow2" href="#">
+					<img src="img/arrow2.svg" alt="icon">
+				</a>
 			</div>
 		</section>
 		<section class="sec">
-			<div class="conteiner first-img-div">
-				<div class="img-box">
+			<div class="container d-flex justify-content-between flex-wrap">
+				<div class="img-box d-flex align-items-center flex-column">
 					<img src="img/120x120.jpg" alt="elegant">
 					<h4>SERVICE <br><span class="cent-tit">TITLE</span></br></h4>
 					<p class="img-txt">
@@ -68,7 +71,7 @@
 						et eget sed eget quisq ueta habitur augue
 					</p>
 				</div>
-				<div class="img-box">
+				<div class="img-box d-flex align-items-center flex-column">
 					<img src="img/120x120.jpg" alt="elegant">
 					<h4>SERVICE <br><span class="cent-tit">TITLE</span></br></h4>
 					<p class="img-txt">
@@ -76,7 +79,7 @@
 						et eget sed eget quisq ueta habitur augue
 					</p>
 				</div>
-				<div class="img-box">
+				<div class="img-box d-flex align-items-center flex-column">
 					<img src="img/120x120.jpg" alt="elegant">
 					<h4>SERVICE <br><span class="cent-tit">TITLE</span></br></h4>
 					<p class="img-txt">
@@ -84,7 +87,7 @@
 						et eget sed eget quisq ueta habitur augue
 					</p>
 				</div>
-				<div class="img-box">
+				<div class="img-box d-flex align-items-center flex-column">
 					<img src="img/120x120.jpg" alt="elegant">
 					<h4>SERVICE <br><span class="cent-tit">TITLE</span></br></h4>
 					<p class="img-txt">
@@ -93,11 +96,11 @@
 					</p>
 				</div>
 			</div>
-			<div class="conteiner latest">
+			<div class="container latest">
 				<div class="stick"></div>
 				<h5 class="latestt">LATEST WORK</h5>
 			</div>
-			<div class="conteiner sec-img-div">
+			<div class="container d-flex justify-content-between flex-wrap">
 				<div class="sec-img-box">
 					<img src="img/290x190.jpg" alt="nature">
 					<p class="lorem">LOREM IPSUM DOLOR</p>
@@ -125,7 +128,7 @@
 			</div>
 		</section>
 		<footer>
-			<div class="conteiner foot-div">
+			<div class="container foot-div">
 				<div class="blog">
 					<h5 class="last-tit">From The Blog</h6>
 					<h6>Post Title</h6>
@@ -182,9 +185,12 @@
 		</footer>
 		<section class="the-last">
 			<div class="conteiner flex">
-				<p class="copy">Copyright © 2013 Domain Name - All Rights Reserved</p>
+				<p class="copy"> © 2013 Domain Name - All Rights Reserved</p>
 				<p class="copy">Created By GG</p>
 			</div>
 		</section>
+
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 	</body>
 </html>
